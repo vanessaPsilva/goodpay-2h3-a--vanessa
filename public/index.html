@@ -18,13 +18,28 @@
 <body>
     <header>
         <section name="menu-lateral">
-            <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
-                <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large">Fechar &times;</button>
-                <a href="#" class="w3-bar-item w3-button">Logina GoodPay</a>
+            <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu"> 
+                    <img src="./img/goodpay.png" alt="Letreiro GoodPay" class="w3-image">
+                    <button onclick="closeRightMenu()" class="w3-bar-item w3-button "> &times;</button>
+                    <i class="material-icons">double_arrow</i>
+                    <button>
+                <hr>
+                <form class="w3-container">
+
+                    <label>E-mail</label>
+                    <input class="w3-input" type="text">
+
+                    <label>Senha</label>
+                    <input class="w3-input" type="password">
+
+                </form>
+                <button class="w3-button w3-green w3-block " style="margin-top: 10px;"> Entar</button>
+                
                 <hr>
                 <a href="#" class="w3-bar-item w3-button">Configurações</a>
                 <hr>
                 <a href="#" class="w3-bar-item w3-button">Logout</a>
+                
             </div>
         </section>
 
