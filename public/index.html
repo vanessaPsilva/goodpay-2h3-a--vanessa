@@ -10,6 +10,7 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/menu.js"></script>
     <title>GoodPay</title>
@@ -19,8 +20,21 @@
     <header>
         <section name="menu-lateral">
             <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
-                <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large">Fechar &times;</button>
-                <a href="#" class="w3-bar-item w3-button">Login GoodPay</a>
+                <img src="./img/goodpay.png" alt="Letreiro GoodPay" class="w3-image">
+                <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large">
+                    <i class="material-icons">double_arrow</i>
+                </button>
+                <hr>
+                    <form class="w3-container">
+
+                        <label>E-mail</label>
+                        <input class="w3-input" type="text">
+
+                        <label>Senha</label>
+                        <input class="w3-input" type="password">
+
+                    </form>
+                    <button class="w3-button w3-green w3-block" style="margin-top: 10px;">Entrar</button>
                 <hr>
                 <a href="#" class="w3-bar-item w3-button">Configurações</a>
                 <hr>
